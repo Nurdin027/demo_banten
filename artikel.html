@@ -120,7 +120,7 @@
         <ul class="nav nav-pills nav-sidebar flex-column nav-child-indent" data-widget="treeview" role="menu"
             data-accordion="false">
           <li class="nav-item">
-            <a href="#" class="nav-link {{ 'active' if Page == 'Dashboard' }}">
+            <a href="#" class="nav-link">
               <i class="fas fa-tachometer-alt nav-icon"></i>
               <p>Dashboard</p>
             </a>
@@ -135,15 +135,14 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#"
-                   class="nav-link ">
+                <a href="#" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Berita</p>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="#"
-                   class="nav-link active">
+                   class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Artikel</p>
                 </a>
@@ -169,7 +168,7 @@
               </li>
               <li class="nav-item">
                 <a href="#"
-                   class="nav-link {{ 'active' if Page == 'e-Pidana' }}">
+                   class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Rumah Sait</p>
                 </a>
@@ -243,7 +242,7 @@
                   </a>
                 </td>
                 <td>
-                  <button type="button" class="btn btn-block bg-gradient-success active" data-id="{{x['id']}}">
+                  <button type="button" class="btn btn-block bg-gradient-success active">
                     Aktif
                   </button>
                 </td>
@@ -252,7 +251,7 @@
                     <button type="button" class="btn btn-sm btn-primary edit">
                       <i class="fas fa-edit"></i> Edit
                     </button>
-                    <button type="button" class="btn btn-sm btn-danger delete" data-id="{{ x['id'] }}">
+                    <button type="button" class="btn btn-sm btn-danger delete">
                       <i class="fas fa-trash"></i> Delete
                     </button>
                   </div>
